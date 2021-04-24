@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+body {
+    background: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    
+}   
+a {
+    text-decoration: none;
+}   
+  
+.navbar {
+    
+    
+    padding: 0 1rem;
+    margin: 0;
+    background: black;
+    h1 {
+        margin:0;
+        
+    }
+    .logo {
+        text-decoration: none;
+        font-family: 'East Sea Dokdo', cursive; 
+        font-size: 4rem;
+        font-weight: bold;
+        color: #f2f2f2;
+        padding: 1em;
+       
+    }
+    // Logo animation
+    .logo:hover {
+        .y:hover {
+            letter-spacing: 0.3em;
+            color: #1ED760;
+        }
+        .m:hover {
+           
+            color: #1ED760;
+        }
+        .u:hover {
+            color: #1ED760;
+        }    
+        .s:hover {
+            
+            color: #1ED760;
+        }    
+        .i:hover {
+            color: #1ED760;
+        }    
+        .c:hover {
+            color: #1ED760;
+            
+        }   
+    }
+    
+    ul {
+        list-style-type: none;
+    } 
+    .container {
+        display: flex;
+        justify-content: space-between;    
+    }
+    .primary-nav {
+        margin: 0;
+    }
+    // obile setting javascript
+    // .primary-nav {
+    //     display: none;
+    // }
+    // .mobile-menu{
+    // cursor: pointer;
+    // display: hidden;
+    // }
+
+
+
+    // Searchbar yn yerlesisi:
+    .secondary-nav {
+        overflow: none;
+        float: right;
+        // display: flex;
+        // justify-content: center;
+        background-color: white;
+        margin-top: 1.2em;
+        // margin-right: .1em;
+        border: 3px solid rgb(35, 35, 35);
+        height: 0em;
+        width: 19em;
+        border-radius: 3em;
+        .search {
+            font-weight: bold;
+            font-size: 1em;
+            margin: 0.6em;    
+            height: 0.75em;
+            width: 18em;
+            border: 1px white;
+        }
+        .search:focus{
+            outline: none;
+        }
+        .fa-search {
+           margin-right: 0.75em;
+           margin-bottom: 0.4em;
+        }
+    } 
+     // searchbar a hover isletmek:
+     .secondary-nav:hover {
+        border: 4px solid #1ED760;
+        .fa-search {
+            
+            color: #1ED760;
+        }
+      }
+    nav {
+        width: 75%;
+        // justify-content: space-between;
+    }
+    .primary-nav {
+        overflow: none;
+        display: flex;
+        justify-content: none;
+        float:left;
+        margin-left: 3em;
+        margin-top: .5em;
+        font-size: 1.5em;
+        #current {
+            color: #1ED760;
+        }
+        li {
+            margin-left: 1em;
+            
+            padding: .5em 0.5em;
+            
+            font-weight: bold;
+            a {
+                color: white;
+            }
+            
+            margin-left: 1em;
+            padding: .5em 0.5em;
+        }
+        
+    }
+    
+    .current:hover {
+        letter-spacing: .1em;
+        // border-bottom: 2px solid #1ED760;
+        // text-decoration: underline;
+        
+        a {
+            
+            color: #1ED760; 
+        }
+
+        
+        
+        
+    }
+    .songs:hover {
+        letter-spacing: .1em;
+        a {
+            color: #1ED760;
+        }
+    }
+    .artists:hover {
+        letter-spacing: .1em;
+        // font-weight: bold;
+        a {
+            color: #1ED760;
+            // text-shadow: 5px 5px white;
+            
+        }
+    }
+}
+
+
+// section 2 
+#section-1 {
+    margin: 0;
+    padding: 0;
+    float: top;
+    background-color: #061C1C;
+    background-image: repeating-linear-gradient(to bottom , black,#061C1C , #121A50 , black   ) ; 
+    height:800px;
+    display:flex;
+    justify-content: space-between;
+    img {
+        padding-top: 5em;
+        padding-right: 10em;
+        height: 700px;
+    }
+    h2 {
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        padding-left: 1em; 
+        padding-top: 1.8em;
+        font-size: 8em;
+    }
+}
+.section-2 {
+    background-color: black;
+    background-image: linear-gradient(to bottom, #0f1644 black , #0c5525 );
+    height: 50px;
+}
+
+
+// New added
+.section-3 {
+    background-color: black;
+    background-image: linear-gradient(to bottom, black, rgb(34, 34, 34), black);
+    height: 430px;
+    padding: 0;
+    h2 {
+        margin: 0;
+        color: white;
+        padding-left: 2em;
+        font-size: 2em;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    li {
+        list-style-type: none;
+    }
+    .eminem {
+        h3 {
+            text-align: center;
+            margin: 0.75em 0 0 0;
+        }
+        a {
+            color: white; 
+        }
+        img {
+        height: 250px;
+        margin: 0 3em;
+        padding: 0 ;
+        margin-top: 2em;
+        border-radius: 100px;
+        }
+        
+    }
+    .dua-lipa {
+        h3 {
+            text-align: center;
+            margin: 0.75em 0 0 0;
+        }
+        a {
+            color: white;
+            
+        }
+        img {
+        text-align: center;
+        height: 250px;
+        margin: 0 1.5em;
+        padding: 0 ;
+        margin-top: 2em;
+        border-radius: 100px;
+        }
+        
+    }
+    .justin-bieber {
+        h3 {
+            text-align: center;
+            margin: 0.75em 0 0 0;
+        }
+        a {
+            color: white; 
+        }
+        img {
+        height: 250px;
+        margin: 0 1.5em;
+        padding: 0 ;
+        margin-top: 2em;
+        border-radius: 100px;
+        }
+    }
+    .selena-gomez {
+        h3 {
+            text-align: center;
+            margin: 0.75em 0 0 0;
+        }
+        a {
+            color: white; 
+        }
+        img {
+        height: 250px;
+        margin: 0 1.5em;
+        padding: 0 ;
+        margin-top: 2em;
+        border-radius: 100px;
+        }
+    }
+    .marshmello {
+        h3 {
+            text-align: center;
+            margin: 0.75em 0 0 0;
+        }
+        a {
+            color: white; 
+        }
+        img {
+        height: 250px;
+        margin: 0 1.5em;
+        padding: 0 ;
+        margin-top: 2em;
+        border-radius: 100px;
+        }
+    }
+    // Atlary font-size
+    .name-song {
+        font-size: .9em;
+        font-style: italic;
+    }
+    .name-artist {
+        font-weight: bold;
+    }
+    #higher:hover {
+        color: #1ED760;;
+    }
+    .name-song:hover {
+        color: #1ED760;
+    }
+    .name-artist:hover {
+        color: #1ED760;
+    }
+    img:hover {
+        border: 3px solid #212121;
+    }
+
+    .new-see {
+        display: flex;
+        justify-content: space-between;
+        a {
+            padding-right: 2em;
+            float: inline-end;
+            color: white;
+            font-size: 0.75em;
+        }
+        a:hover {
+            color: #1ED760;
+        }
+        .new-added {
+            font-size: 1.25em;
+        }
+    }
+}
+// Footer
+.footer {
+    padding-top: 3em;
+    height: 425px;
+    background-color: black;
+    ul {
+        margin: 0;
+        text-align: center;
+        // padding-top: 3em;
+        .email {
+            border: 4px solid white;
+            width: 25em;
+            height: 2em;
+            margin: 1em 0;
+            margin-left: 35em;
+            background-color: white;
+            border-radius: 4em;
+            input {
+                font-size: .9em;
+                font-weight: bold;
+                margin: auto;
+                width: 25em;
+                height: 2em;
+                outline: none;
+                border: 1px white;
+            }
+            input:focus {
+                outline: none;
+            }
+                
+        }
+        .email:hover {
+            border: 3px solid #1ED760;
+        }  
+        .message {
+            display: inline-block;
+            height: 12em;
+            width: 30em;
+            margin: 1em ;
+            border: 3px solid white;
+            border-radius: 1.5em;
+            background-color: white;
+            textarea {
+                border: white;
+                font-size: 1.2em;
+                font-weight: bold;
+                width: 28em;
+                height: 12em;
+            }
+            textarea:focus {
+                outline: none;
+            }
+        }
+        .message:hover {
+            border: 3px solid  #1ED760;
+        }
+        h3 {
+            margin: 0;
+        }
+        list-style: none;
+        color: white;
+        a{
+            color: white;
+        }
+    }
+    .footer-button {
+        display: inline-block;
+        color: white;
+        float: none;
+        padding:1em 37em;
+        display: flex;
+        a {
+            border: 2px solid white;
+            background-color: white;
+            margin: 2em;
+            padding: .5em 2em;
+            color: black;
+            font-weight: bold;
+            border-radius: 15px;
+        }
+        a:hover {
+            border: 3px solid #1ED760;
+            color: #1ED760;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+// Songs site
+
+// Section 1 Go back
+
+// .bosluk{
+//     h3 {
+//         margin: 0;
+//         padding: 0;
+//     }
+//     background-color: #914714;
+//     background-image: linear-gradient(to bottom, black , #914714);
+//     height: 3em
+// }
+.eminem-song {
+    // height: 1080px;
+    background: #914714;
+    background-image: linear-gradient(to bottom, black, #121A50, black);
+    
+    ul {
+        
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        color: white;
+        list-style: none;
+        padding: 1em 0;
+        margin: 0 15em;
+        li  {
+            display: flex;
+        }
+    }
+    h2 {
+        margin: 0;
+        margin-top: 0.6em;
+        margin-left: 1em;
+    }
+    p {
+        font-style: italic;
+        margin: 0;
+        margin-left: 1.5em;
+    }
+    a {
+        color: white;
+        text-align: center;
+    }
+    img {
+        height: 85px;
+        width: 85px;
+        border-radius: 30px;
+    }
+    .download {
+        margin: 1.5em 0 0 1em;
+        // padding: 1em 0 0 1em;
+        height: 35px;
+        width: 35px;
+    }
+    .song-min {
+        margin: 1.6em 1em 0 0;
+    }
+    
+}
+// Eminem Higher Site
+
+.donwload {
+    .download-elements {
+        // height: 400px   ;
+        background-color: black;
+        background-image: linear-gradient(to bottom, black, #121A50, black);
+        padding: 0 ;
+        display: flex;
+        justify-items: center;
+    }
+    img {
+        height: 30em;
+        width: 30em;
+        text-align: center;
+        border-radius: 100px;
+
+    }
+    
+    
+}
